@@ -1,0 +1,62 @@
+body {
+	background-color: #eee;
+	width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+	cursor: pointer;
+	transition: 0.2s;
+	margin-bottom: 50px;
+}
+
+h1:hover {
+	letter-spacing: 1px;
+}
+
+img {
+	cursor: pointer;
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 4px gray;
+	padding: 5px;
+	transition: 0.2s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+	padding: 10px;
+	margin: 2px;
+}
+
+button:hover {
+	background-color: darkgreen;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	min-width: 200px;
+	max-width: 500px;
+}
+
+.content {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tombol {
+	display: flex;
+}
