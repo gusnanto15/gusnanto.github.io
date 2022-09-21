@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-	margin: auto;
+	margin: 20px 0 auto;
 }
 
 ol {
@@ -65,11 +65,16 @@ select {
     border: 1px solid #ccc;
 }
 
+input[type=date] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+}
+
 input[type=file] {
     background-color: #fff;
     border: none;
     font-size: 12px;
-    color: gray;
 }
 
 button {
