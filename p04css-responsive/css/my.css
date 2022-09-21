@@ -34,13 +34,11 @@ ol {
     font-size: 27px;
     margin-top: 20px;
     text-align: center;
-    color: rgb(41, 38, 38);
 }
 
 label {
     font-size: 17px;
     font-weight: bold;
-    color: rgb(41, 38, 38);
 }
 
 .masukkan, select {
@@ -52,10 +50,6 @@ label {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 12px;
-}
-
-input[type=radio] {
-    margin: 20px;
 }
 
 select {
