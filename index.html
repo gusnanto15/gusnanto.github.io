@@ -1,43 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ferdi Gusnanto GitHub Pages</title>
-	<link rel="stylesheet" type="text/css" href="css/my.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferdi Gusnanto Github Pages</title>
+    <link rel="stylesheet" href="css/my.css">
 </head>
 <body>
-	<div class="content">
-		<h1>My GitHub Pages</h1>
-		<img src="img/gusnanto.jpg" title="Orang Ganteng">
-		<h3>Ferdi Gusnanto - 41215623</h3>
-		<button onclick="alert('Hai! Saya Ferdi Gusnanto dengan NIM 41215623 sedang belajar pemrograman web.')">Hello JavaScript!</button>
-		<br>
-		<p>Pertemuan 3:</p>
-		<div class="tombol">
-			<button onclick="document.location.href = 'p03'">Tabel Sederhana</button>
-			<button onclick="document.location.href = 'p03css'">Tabel + CSS</button>
-			<button onclick="document.location.href = 'p03jquery'">Tabel + jQuery</button>
-		</div>
-		<div class="tombol">
-			<button onclick="document.location.href = 'p03form-lv1'">Formulir PMB</button>
-		</div>
-		<br>
-		<p>Pertemuan 4:</p>
-		<div class="tombol">
-			<button onclick="document.location.href = 'p04css-basic'">Form + Basic CSS</button>
-			<button onclick="document.location.href = 'p04css-responsive'">Form + Responsive CSS</button>
-		</div>
-		<br>
-		<p>Pertemuan 5:</p>
-		<div class="tombol">
-			<button onclick="document.location.href = 'p05-jquery-delete'">jQuery FadeOut</button>
-			<button onclick="document.location.href = 'p05-jquery-sliding'">jQuery Sliding</button>
-		</div>
-		<p>Pertemuan 6:</p>
-		<div class="tombol">
-			<button onclick="document.location.href = 'p06-spa-menu'">SPA Menu</button>
-		</div>
-	</div>
+    <div class="content">
+    	<div class="header">
+    		<h1>My Github Pages</h1>
+    		<p class="line-1 mengetik">Welcome to My Github Pages</p>
+    	</div>
+        <div class="navigasi">
+        	<span class="menu aktif" id='menu_1'>Home</span>
+        	<span class="menu" id='menu_2'>Project</span>
+        	<span class="menu" id='menu_3'>Contact</span>
+        	<span class="menu" id='menu_4'>Tugas</span>
+        </div>
+        <div class="home" id="isi_1">
+        	<img src="img/gusnanto.jpg" title="Orang Ganteng">
+        	<h3>Ferdi Gusnanto</h3>
+        	<span class="separator"></span>
+        	<h4>About Me</h4>
+        	<span class="separator-kiri"></span>
+        	<p>Seorang mahasiswa program studi Teknik Informatika di <a href="https://www.ikmi.ac.id" target="_blank">STMIK IKMI Cirebon</a>. Menyelesaikan pendidikan menengah pertama di <a href="https://www.mtsn1-cirebon.sch.id" target="_blank">MTsN 1 Cirebon</a> pada tahun 2018 dan menjadi alumnus <a href="https://www.smkn1gebang.sch.id" target="_blank">SMKN 1 Gebang</a> di jurusan Teknik Komputer dan Jaringan pada tahun 2021.</p>
+        	<h4>My Skill</h4>
+        	<span class="separator-kiri"></span>
+        	<ul>
+        		<li class="list">Network Administrator
+        			<ul>
+        				<li>MikroTik</li>
+        				<li>Cisco</li>
+        			</ul>
+        		</li>
+        		<li class="list">Web Programing
+        			<ul>
+        				<li>CSS: Native, Bootstrap.</li>
+        				<li>PHP: Native, Codeigniter.</li>
+        				<li>JavaScript: Native.</li>
+        			</ul>
+        		</li>
+        		<li>Linux Server</li>
+        	</ul>
+        	<h4>Website</h4>
+        	<span class="separator-kiri"></span>
+        	<ul>
+        		<li><a href="https://www.otodidakkuy.com" target="_blank">Ototidak Kuy</a></li>
+        		<li><a href="https://gusnantodev.github.io" target="_blank">Github Pages</a></li>
+        	</ul>
+        	<span class="separator"></span>
+        	<blockquote><q>Ikuti alurnya, jangan lawan arus</q></blockquote>
+        </div>
+        <div class="isi" id="isi_2">
+            <h2 class="top">My Project</h2>
+        	<span class="separator-kiri"></span>
+        	<ul>
+        		<li>Sistem Sewa Mobil: <a href="http://sisebil.great-site.net" target="_blank">Si Sebil</a>.</li>
+        		<li>Point of Sale: <a href="http://gpos.great-site.net" target="_blank">gPOS</a>.</li>
+        		<li>CBT: <a href="http://mycbt.great-site.net" target="_blank">myCBT</a>.</li>
+        	</ul>
+        </div>
+        <div class="isi" id="isi_3">
+            <h2 class="top">My Contact</h2>
+        	<span class="separator-kiri"></span>
+        	<p>Kontak dan informasi lebih lanjut dapat melalui:</p>
+        	<ul>
+        		<li>Sosial media: <a href="https://www.facebook.com/ferdi.gusnanto.15" target="_blank">Facebook</a>, <a href="https://www.instagram.com/ferdigsnt" target="_blank">Instagram</a>, <a href="https://www.linkedin.com/in/ferdi-gusnanto-44041920b" target="_blank">LinkedIn</a>.</li>
+        		<li>Email: <a href="mailto:fergoesnant72@gmail.com">fergoesnant72@gmail.com</a>.</li>
+        	</ul>
+        </div>
+        <div class="isi" id="isi_4">
+            <h2 class="top">Tugas Pemrograman Web</h2>
+        	<span class="separator-kiri"></span>
+        	<ul>
+        		<li class="list">Pertemuan 3:
+        			<ul>
+        				<li><a href="p03">Tabel Sederhana</a></li>
+        				<li><a href="p03css">Tabel + CSS</a></li>
+        				<li><a href="p03jquery">Tabel + jQuery</a></li>
+        				<li><a href="p03form-lv1">Form Level 1</a></li>
+        			</ul>
+        		</li>
+        		<li class="list">Pertemuan 4:
+        			<ul>
+        				<li><a href="p04css-basic">CSS Basic</a></li>
+        				<li><a href="p04css-responsive">CSS Responsive</a></li>
+        			</ul>
+        		</li>
+        		<li class="list">Pertemuan 5:
+        			<ul>
+        				<li><a href="p05-jquery-delete">jQuery FadeOut</a></li>
+        				<li><a href="p05-jquery-sliding">jQuery Sliding</a></li>
+        			</ul>
+        		</li>
+        		<li class="list">Pertemuan 6:
+        			<ul>
+        				<li><a href="p06-spa-menu">Single Page Application</a></li>
+        			</ul>
+        		</li>
+        	</ul>
+        </div>
+    	<div class="footer">
+    		&copy; 2022 Ferdi Gusnanto Github Pages
+    	</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/my.js"></script>
 </body>
 </html>
