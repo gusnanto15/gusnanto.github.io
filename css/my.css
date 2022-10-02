@@ -152,16 +152,14 @@ a:hover{
 	display: flex;
 	margin-right: auto;
 	margin-left: auto;
-	border: 1px solid green;
-	background-color: green;
+	border-bottom: 2px solid green;
 	transition-duration: 0.2s;
 }
 
 .separator-kiri{
 	width: 30px;
 	display: flex;
-	border: 1px solid green;
-	background-color: green;
+	border-bottom: 2px solid green;
 }
 
 .list{
