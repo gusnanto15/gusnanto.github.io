@@ -65,28 +65,28 @@ a:hover{
 
 .line-1{
 	font-family: monospace;
-    position: relative;
-    top: 50%;  
-    width: 15.8em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+    	position: relative;
+    	top: 50%;  
+    	width: 15.8em;
+    	margin: 0 auto;
+   	border-right: 2px solid rgba(255,255,255,.75);
+    	text-align: center;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	transform: translateY(-50%);    
 }
 
 .mengetik{
-  animation: typewriter 3s steps(33) 1s 1 normal both,
-             blinkTextCursor 600ms steps(33) infinite normal;
+  	animation: typewriter 3s steps(33) 1s 1 normal both,
+             	   blinkTextCursor 600ms steps(33) infinite normal;
 }
 @keyframes typewriter{
-  from{width: 0;}
-  to{width: 15.8em;}
+  	from{width: 0;}
+  	to{width: 15.8em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: black;}
-  to{border-right-color: transparent;}
+  	from{border-right-color: black;}
+  	to{border-right-color: transparent;}
 }
 
 .content{
@@ -101,25 +101,25 @@ a:hover{
 	text-align: center;
 	border: 1px solid green;
 	border-radius: 5px 5px 0 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .navigasi{
-    background-color: green;
-    padding: 15px 5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	background-color: green;
+    	padding: 15px 0;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .menu{
 	margin: 0;
 	padding: 15px;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: 0.5s;
+    	color: white;
+    	border: none;
+    	border-radius: 4px;
+    	cursor: pointer;
+    	font-size: 16px;
+    	font-weight: bold;
+    	transition: 0.5s;
 }
 
 .menu:hover{
@@ -135,17 +135,16 @@ a:hover{
 	padding: 20px;
 	border-left: 1px solid green;
 	border-right: 1px solid green;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .isi{
-	height: 100%;
 	display: none;
 	background-color: white;
 	padding: 20px;
 	border-left: 1px solid green;
 	border-right: 1px solid green;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .separator{
@@ -175,7 +174,7 @@ a:hover{
 	padding: 10px;
 	border-radius: 0 0 5px 5px;
 	font-weight: bold;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 @media only screen and (max-width: 800px){
