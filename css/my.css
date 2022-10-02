@@ -153,6 +153,7 @@ a:hover{
 	margin-right: auto;
 	margin-left: auto;
 	border: 1px solid green;
+	background-color: green;
 	transition-duration: 0.2s;
 }
 
@@ -160,6 +161,7 @@ a:hover{
 	width: 30px;
 	display: flex;
 	border: 1px solid green;
+	background-color: green;
 }
 
 .list{
